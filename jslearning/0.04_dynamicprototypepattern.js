@@ -16,6 +16,6 @@ var peopleDynamicProto = function(name, age, state){
 var person1 = new peopleDynamicProto('john',23,'CA');
 
 person1.printPerson();
-/*console.log('name' in person1); this would be true instead of person1.prinPerson
+/*console.log('name' in person1); this would be true instead of person1.prinPersongi
 console.log(person1.hasOwnProperty('name')); this would be true
 */
