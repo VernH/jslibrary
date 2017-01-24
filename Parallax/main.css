@@ -1,4 +1,4 @@
-/*.head-parallax {
+.head-parallax {
 	margin: 0px;
 	padding: 0px;
 }
@@ -13,4 +13,4 @@
 	background-color: orange;
 	position: relative;
 	z-index: 1;
-}*/
+}
