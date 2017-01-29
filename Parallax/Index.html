@@ -2,55 +2,22 @@
 <html>
 <head class="head-parallax">
 <title>ParallecScrolling</title>
-<link rel="stylesheet" type="text/css" href="main">
-<style type="text/css">
-	*{
-	margin: 0px;
-	padding: 0px;
-}
-#image{
-	position: relative;
-	z-index: -1;
-}
-#content{
-	height: 750px;
-	width: 100%;
-	margin-top: -10px;
-	background-color: brown;
-	position: absolute;
-	z-index: 1;
-}
+<link rel="stylesheet" type="text/css" href="main.css">
 
-.main-header {
-
-}
-</style>
-<script type="text/javascript">
-	var ypos,image;
-	function parallex (){
-	ypos = window.pageYOffset;
-	image = document.getElementById('image');
-	image.style.top = ypos * .4 +'px';
-}
-window.addEventListener('scroll',parallex);
-</script>
-
-
-</head>
+ </head>
 <body>
 <img id="image" src="img/vselephant.jpg" height="710px" width="100%" />
-<div id="content"></div>
+<div id="content">
+	<h1>Hello</h1>
+</div>
 
 <section>
-<header class="main-header">
-<h1 id="king-shaka">King Shaka</h1>
-
-	
-</header>
-
-
-
+	<header class="main-header">
+		<h1 id="king-shaka">King Shaka</h1>
+	</header>
 </section>
+
+<script type="text/javascript" src="main.js"></script> 
 
 </body>
 </html>
